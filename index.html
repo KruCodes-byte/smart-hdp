@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Photo Gallery</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<h1>📸 เว็บโชว์รูปของฉัน</h1>
+
+<div class="gallery">
+    <img src="ประกาศ.png">
+</div>
+
+</body>
+</html>
